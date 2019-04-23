@@ -1,0 +1,17 @@
+      _____________
+      |   A       |
+      |+method1() |
+      |+method2() |
+      _____________
+      ^         ^
+     /           \
+    /             \
+_____________    ______________________
+|   B       |    |    C               |
+|+method3() |    |+method1()-override |
+|+method4() |    |+method5()          |
+_____________    ______________________
+
+
+How to test method1(inherited) and method2(inherited) in B? 
+How to test method1(overridden) and method2(inherited) in C? 
