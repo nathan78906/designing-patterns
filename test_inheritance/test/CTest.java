@@ -18,11 +18,6 @@ public class CTest extends ATest{
   }
 
   @Test
-  public void method2() {
-    assertEquals(a.method2(), 2);
-  }
-
-  @Test
   public void method5() {
     assertEquals(c.method5(), 5);
   }
